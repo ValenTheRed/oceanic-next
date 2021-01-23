@@ -28,9 +28,9 @@ let s:p.visual.left = [[["#1b2b34", 235], ["#f99157", 209]], [['#d8dee9', '253']
 let s:p.visual.middle = [[['#d8dee9', '253'], ["#1b2b34", 235]]]
 let s:p.visual.right = [[["#1b2b34", 235], ["#f99157", 209]], [['#d8dee9', '253'], ["#65737e", 243]]]
 
-let s:p.tabline.left = [[["#65737e", 243], ["#1b2b34", 235]]]
+let s:p.tabline.left = [[["#a7adba", 145], ["#343d46", 237]]]
 let s:p.tabline.tabsel = [[['#d8dee9', '253'], ["#65737e", 243]]]
 let s:p.tabline.middle = [[["#65737e", 243], ["#1b2b34", 235]]]
-let s:p.tabline.right = [[["#65737e", 243], ["#1b2b34", 235]]]
+let s:p.tabline.right = [[["#d8dee9", 253], ["#65737e", 243]]]
 
 let g:lightline#colorscheme#oceanicnext#palette = lightline#colorscheme#flatten(s:p)
