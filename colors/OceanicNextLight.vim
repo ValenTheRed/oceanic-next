@@ -73,7 +73,7 @@ endfunction
   call s:hi('ErrorMsg',                   s:red,    s:base00, '',          '')
   call s:hi('Exception',                  s:red,    '',       '',          '')
   call s:hi('FoldColumn',                 s:blue,   s:base00, '',          '')
-  call s:hi('Folded',                     s:base03, s:base01, s:italic,    '')
+  call s:hi('Folded',                     s:white, s:base01, s:italic,    '')
   call s:hi('IncSearch',                  s:base01, s:orange, 'NONE',      '')
   call s:hi('Italic',                     '',       '',       s:italic,    '')
 
@@ -82,7 +82,7 @@ endfunction
   call s:hi('ModeMsg',                    s:green,  '',       '',          '')
   call s:hi('MoreMsg',                    s:green,  '',       '',          '')
   call s:hi('Question',                   s:blue,   '',       '',          '')
-  call s:hi('Search',                     s:base03, s:yellow, '',          '')
+  call s:hi('Search',                     s:white, s:yellow, '',          '')
   call s:hi('SpecialKey',                 s:base03, '',       '',          '')
   call s:hi('TooLong',                    s:red,    '',       '',          '')
   call s:hi('Underlined',                 s:red,    '',       '',          '')
