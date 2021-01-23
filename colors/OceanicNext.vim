@@ -267,7 +267,7 @@ endfunction
   call s:hi('vimfilerClosedFile',         s:blue,   '',       '',          '')
 
   call s:hi('GitGutterAdd',               s:green,  s:base00, s:bold,      '')
-  call s:hi('GitGutterChange',            s:blue,   s:base00, s:bold,      '')
+  call s:hi('GitGutterChange',            s:yellow,   s:base00, s:bold,      '')
   call s:hi('GitGutterDelete',            s:red,    s:base00, s:bold,      '')
   call s:hi('GitGutterChangeDelete',      s:purple, s:base00, s:bold,      '')
 
