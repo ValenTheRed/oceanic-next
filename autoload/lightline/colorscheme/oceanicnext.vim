@@ -8,7 +8,7 @@ let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": 
 " [fg, bg]
 let s:p.normal.left = [[['#d8dee9', '253'], ["#6699cc", 68]], [['#d8dee9', '253'], ["#65737e", 243]]]
 let s:p.normal.middle = [[['#d8dee9', '253'], ["#343d46", 237]]]
-let s:p.normal.right = [[['#d8dee9', '253'], ["#65737e", 243]], [['#d8dee9', '253'], ["#65737e", 243]]]
+let s:p.normal.right = [[['#d8dee9', '253'], ["#65737e", 243]], [['#d8dee9', '253'], ["#6699cc", 68]]]
 let s:p.normal.error = [[['#d8dee9', '253'], ["#ec5f67", 203]]]
 let s:p.normal.warning = [[['#d8dee9', '253'], ["#fac863", 221]]]
 
